@@ -1,5 +1,5 @@
 # FilterCardNumber
-The native java libary CardValidator.jar which provide method to perform the filtering of credit card number. Here is the API which will show result.
+The native java libary **CardValidator.jar** which provide method to perform the filtering of credit card number. Here is the API which will show result.
 
 ### FactoryCardFilter.getCardType("4929804463622139")
 
