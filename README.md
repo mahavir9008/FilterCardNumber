@@ -28,9 +28,9 @@ The native java libary CardValidator.jar which provide method to perform the fil
        
 **Note** : For any exception, Application have to catch the exception such as -
  - if user enter incorrect lengh of card number then, Application have to catch a exception which send by libary and dispaly according to application requirement like -
-- API Request -: 1.try 
-		 2. FactoryCardFilter.getCardType("49298044"))// length is less then 12 charcter
-		 3. catch (Exception e) 
-		 3. e.getMessage()
+- API Request -: -- 1.try 
+		 -- 2. FactoryCardFilter.getCardType("49298044"))// length is less then 12 charcter
+		 -- 3. catch (Exception e) 
+		 -- 4. e.getMessage()
 		
 - API Response -:e.getMessage() ="Card length should be greater then 11"
