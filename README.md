@@ -27,7 +27,7 @@ The native java libary CardValidator.jar which provide method to perform the fil
        620000 - 629999 (takes priority over Maestro) 
        
 **Note** : For any exception, Application have to catch the exception such as -
- - if user enter incorrect lengh of card number then, Application have to catch the exception which send by libary and dispaly according to application requirement like -
+ - if user enter incorrect lengh of card number then, Application have to catch a exception which send by libary and dispaly according to application requirement like -
 - API Request -: try 
 		     System.out.println(FactoryCardFilter.getCardType("49298044"));// length is less then 12 charcter
 		 catch (Exception e) 
