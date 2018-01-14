@@ -26,11 +26,11 @@ The native java libary CardValidator.jar which provide method to perform the fil
 -  China Union Pay 
        620000 - 629999 (takes priority over Maestro) 
        
-**Note** : For any exception,Application have to catch the exception such as
- - lengh should be between 12 - 18 
-- API Request -: try {
-			System.out.println(FactoryCardFilter.getCardType("49298044"));
-		} catch (Exception e) {
-			System.out.println(e.getMessage());
-		}
+**Note** : For any exception,Application have to catch the exception such as -
+ - if user enter incorrect lengh of card number then, Application have to catch the exception which send by libary and dispaly according to application requirement like -
+- API Request -: try 
+		     System.out.println(FactoryCardFilter.getCardType("49298044"));// lenth is less then 12 charcter
+		 catch (Exception e) {
+		       System.out.println(e.getMessage());
+		
 - API Response -:e.getMessage() ="Card length should be greater then 11"
