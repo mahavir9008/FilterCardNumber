@@ -3,11 +3,15 @@ The native java libary CardValidator.jar which provide method to perform the fil
 
 ### FactoryCardFilter.getCardType("4929804463622139")
 
+**API Result**
+
+*[cardno =4929804463622139, brand =VISA, isValid =Valid]*
+
 **Clause apply to validate a credit card number** -
 
--It contains only numbers and no leading 0. 
--it is 12-19 digits long.
--It passes the Luhn check ( https://en.wikipedia.org/wiki/Luhn_algorithm ).
+- It contains only numbers and no leading 0. 
+- it is 12-19 digits long.
+- It passes the Luhn check ( https://en.wikipedia.org/wiki/Luhn_algorithm ).
 
 
 **The card number belong to a brand if the first 6 digits of the number fall in the following ranges**:
