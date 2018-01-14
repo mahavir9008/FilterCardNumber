@@ -26,7 +26,7 @@ The native java libary **CardValidator.jar** which provide method to perform the
 -  China Union Pay 
        620000 - 629999 (takes priority over Maestro) 
        
-**Note** : For any exception, Application have to catch the exception such as -
+**Note** : For any exception, Application have to catch a exception such as -
  - if user enter incorrect lengh of card number then, Application have to catch a exception which send by libary and dispaly according to application requirement like -
          - try
 	 - FactoryCardFilter.getCardType("49298044"))// length is less then 12 charcter
