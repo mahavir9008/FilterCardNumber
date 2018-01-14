@@ -10,7 +10,7 @@ class CardTypeExtractor {
     * @throws Exception - Application send the exception if length less then 12
     */
 	public static String extract(String cardNo) throws Exception {
-		if (cardNo.length() < 12)
+		if (cardNo.length() < Constant.MIN_CHARTER_LENGTH)
 			throw new Exception(Constant.CARD_LENGTH_ERROR);
 		// extract the first six digit 
 		String firstSixDigit = cardNo.substring(0, 6);

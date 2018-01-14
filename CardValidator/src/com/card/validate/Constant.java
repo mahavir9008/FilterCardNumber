@@ -23,5 +23,6 @@ public class Constant {
 	public static final String CARD_NUMBER_INVALID = "InValid";
 	 // check first charter not be zero,it should only be number, length of number must be between 12-19
 	public static final String CARD_NUMBER_VALIDATE_REGEX = "^[1-9][0-9]*{12,19}$";
+	public static final Integer MIN_CHARTER_LENGTH = 12;
 
 }
